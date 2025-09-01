@@ -13,10 +13,10 @@ spring:
     hibernate:
       ddl-auto: update
 
-  data:
-    redis:
-      host: XXXX
-      port: 6379
+
+  redis:
+    host: XXXX
+    port: 6379
 
   config:
     activate:
@@ -27,8 +27,8 @@ jwt:
   secretKeyAt: XXX
   expirationRt: 10000
   secretKeyRt: YYY
-  adminEmail:
-  adminPassword:
+  adminEmail: xx
+  adminPassword: yy
 
 cloud:
   aws:
